@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://joy-of-hiking.github.io/wp-sitemap.xml
+Sitemap: https://joy-of-hiking.github.io/joy-of-hiking/wp-sitemap.xml
