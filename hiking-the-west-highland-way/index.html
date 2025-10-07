@@ -57,8 +57,14 @@ body{background-color:var(--accent);color:var(--contrast);}a{color:var(--contras
 <link rel="apple-touch-icon" href="https://joy-of-hiking.github.io/joy-of-hiking/wp-content/uploads/2025/10/cropped-cropped-PXL_20241008_143054884-2-scaled-1-2-180x180.jpg">
 <meta name="msapplication-TileImage" content="https://joy-of-hiking.github.io/joy-of-hiking/wp-content/uploads/2025/10/cropped-cropped-PXL_20241008_143054884-2-scaled-1-2-270x270.jpg">
 		<style id="wp-custom-css">
-			figure.wp-block-image {
+			/*for space between image and text*/
+figure.wp-block-image {
     margin-bottom: 1.5em;
+}
+
+/*s.t. feature imgae doesnt show in the blog post before the post*/
+.page-header-image-single {
+      display: none;
 }		</style>
 		</head>
 
